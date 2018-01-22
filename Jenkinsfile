@@ -5,10 +5,6 @@ agent
 	label "master"
 	
 }
-tools {
-		maven 'Maven3.1.1'
-		jdk 'java8'
-		}
 		
 		stages
 		{
