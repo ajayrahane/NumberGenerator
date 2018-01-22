@@ -5,7 +5,10 @@ agent
 	label "master"
 	
 }
-		
+		tools
+                {
+                maven 'MAVEN_HOME'
+                 }
 		stages
 		{
 			stage('Intialize'){
